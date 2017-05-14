@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin : 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.page-top{
+    width: 100%;
+    height: 100px;
+
+}
+.page-content{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 32px;
+    text-justify: 32px;
+    color:#fff;
+    background-color: rgb(223, 59, 59);
+
+}
+.main{
+    width: 100%;
+    position: relative;
+    background-color: #ddd;
+
+}
+.big-title{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+.big-title-2{
+    position: absolute;
+    top: 150px;
+    left: 60px;
+}
+.task-input{
+    width: 50%;
+    height: 30px;
+    border-radius: 2px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+.task-count{
+    width: 50%;
+    height: 30px;
+    list-style: none;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+.task-unfinished{
+    width: 20%;
+}
+.action{
+    width: 50%;
+    text-decoration: none;
+
+}
+.tasks{
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    top: 180px;
+    left: 60px;
+
+}
+.no-task-tip{
+    color: red;
+}
+.todoList{
+
+}
+.completed{
+
+}
+
+.todo{
+    width: 400px;
+    height: 40px;
+}
+.view{
+    width: 100%;
+    height: 40px;
+}
+
+.completed{
+    background-color: #ddd;
+}
+
+.edit{
+    border-radius: 3px;
+}
